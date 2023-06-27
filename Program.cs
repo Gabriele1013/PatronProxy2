@@ -7,10 +7,10 @@
         //No podemos acceder a la clase
         //CProxy.CCocina
 
-        miProxy.Peticion(1);
-        Console.WriteLine("----------");
-        miProxy.Peticion(2);
-        Console.WriteLine("----------");
+        //miProxy.Peticion(1);
+        //Console.WriteLine("----------");
+        //miProxy.Peticion(2);
+        //Console.WriteLine("----------");
 
         CProxy.ISujeto miProxyS = new CProxy.ProxySeguro();
 
